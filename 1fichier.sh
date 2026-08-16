@@ -56,7 +56,7 @@ tcurl() {
 
 failedDownload() {
 	verbosePrint "Write failed links to file"
-	echo "$1" >> "$2/failed.txt"
+	echo "$2" >> "$1/failed.txt"
 }
 
 removeTempDir() {
